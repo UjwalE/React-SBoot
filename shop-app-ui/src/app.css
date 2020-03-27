@@ -1,0 +1,10 @@
+@import url(https://unpkg.com/bootstrap@4.1.0/dist/css/bootstrap.min.css);
+
+.btn-primary.custom-btn {
+    background-color: red;
+    border-color: black;
+}
+
+.tr-empty-row{
+    background-color: rgba(255, 10, 20, 0.31);
+}

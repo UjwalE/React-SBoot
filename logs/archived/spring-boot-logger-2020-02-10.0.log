@@ -1,0 +1,63 @@
+2020-02-10 12:40:10,996 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ShoppingappApplication on ELW4446 with PID 32992 (started by EI11333 in C:\MyBench\SBoot\Sandeep's 201)
+2020-02-10 12:40:11,002 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-02-10 12:40:11,003 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-02-10 12:40:11,125 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-10 12:40:11,126 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-10 12:40:13,172 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-02-10 12:40:13,317 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 127ms. Found 5 repository interfaces.
+2020-02-10 12:40:14,392 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bbe40d5a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-10 12:40:15,414 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8089 (http)
+2020-02-10 12:40:15,443 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8089"]
+2020-02-10 12:40:15,463 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2020-02-10 12:40:15,464 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-02-10 12:40:15,780 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2020-02-10 12:40:15,781 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4654 ms
+2020-02-10 12:40:16,205 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2020-02-10 12:40:16,481 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2020-02-10 12:40:16,647 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-02-10 12:40:16,896 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate Core {5.3.10.Final}
+2020-02-10 12:40:16,899 INFO org.hibernate.cfg.Environment [restartedMain] HHH000206: hibernate.properties not found
+2020-02-10 12:40:17,377 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-02-10 12:40:17,697 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-02-10 12:40:18,173 WARN org.hibernate.mapping.RootClass [restartedMain] HHH000038: Composite-id class does not override equals(): com.springboot.shoppingapp.entity.ProductCatalog
+2020-02-10 12:40:18,174 WARN org.hibernate.mapping.RootClass [restartedMain] HHH000039: Composite-id class does not override hashCode(): com.springboot.shoppingapp.entity.ProductCatalog
+2020-02-10 12:40:19,603 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [restartedMain] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@10f78a6e'
+2020-02-10 12:40:19,614 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-10 12:40:19,708 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2020-02-10 12:40:21,229 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-10 12:40:21,652 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-02-10 12:40:21,921 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-10 12:40:22,757 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2020-02-10 12:40:22,826 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2020-02-10 12:40:23,054 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2020-02-10 12:40:24,627 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: findAllUsingGET_1
+2020-02-10 12:40:25,090 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8089"]
+2020-02-10 12:40:25,197 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8089 (http) with context path ''
+2020-02-10 12:40:25,226 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ShoppingappApplication in 15.425 seconds (JVM running for 17.966)
+2020-02-10 14:17:33,399 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52m46s688ms405µs).
+2020-02-10 14:18:40,743 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8089-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-10 14:18:40,744 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8089-exec-2] Initializing Servlet 'dispatcherServlet'
+2020-02-10 14:18:40,777 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8089-exec-2] Completed initialization in 32 ms
+2020-02-10 14:18:40,883 DEBUG com.springboot.shoppingapp.controller.ShoppingController [http-nio-8089-exec-2] findAll()
+2020-02-10 14:18:40,884 DEBUG com.springboot.shoppingapp.service.impl.UserServiceImpl [http-nio-8089-exec-2] getAll()
+2020-02-10 14:18:41,036 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8089-exec-2] HHH000397: Using ASTQueryTranslatorFactory
+2020-02-10 14:19:40,994 DEBUG com.springboot.shoppingapp.controller.ShoppingController [http-nio-8089-exec-6] showCart(1)
+2020-02-10 14:19:40,995 DEBUG com.springboot.shoppingapp.service.impl.UserServiceImpl [http-nio-8089-exec-6] viewCart(1)
+2020-02-10 14:19:43,072 DEBUG com.springboot.shoppingapp.controller.ShoppingController [http-nio-8089-exec-7] findAll()
+2020-02-10 14:19:43,073 DEBUG com.springboot.shoppingapp.service.impl.UserServiceImpl [http-nio-8089-exec-7] getAll()
+2020-02-10 14:19:44,498 DEBUG com.springboot.shoppingapp.controller.ShoppingController [http-nio-8089-exec-10] showCart(2)
+2020-02-10 14:19:44,500 DEBUG com.springboot.shoppingapp.service.impl.UserServiceImpl [http-nio-8089-exec-10] viewCart(2)
+2020-02-10 14:19:46,002 DEBUG com.springboot.shoppingapp.controller.ShoppingController [http-nio-8089-exec-1] findAll()
+2020-02-10 14:19:46,003 DEBUG com.springboot.shoppingapp.service.impl.UserServiceImpl [http-nio-8089-exec-1] getAll()
+2020-02-10 14:19:47,088 DEBUG com.springboot.shoppingapp.controller.ShoppingController [http-nio-8089-exec-4] showCart(1)
+2020-02-10 14:19:47,089 DEBUG com.springboot.shoppingapp.service.impl.UserServiceImpl [http-nio-8089-exec-4] viewCart(1)
+2020-02-10 14:19:48,720 DEBUG com.springboot.shoppingapp.controller.ShoppingController [http-nio-8089-exec-5] findAll()
+2020-02-10 14:19:48,721 DEBUG com.springboot.shoppingapp.service.impl.UserServiceImpl [http-nio-8089-exec-5] getAll()
+2020-02-10 14:19:50,386 DEBUG com.springboot.shoppingapp.controller.ShoppingController [http-nio-8089-exec-8] showCart(1)
+2020-02-10 14:19:50,386 DEBUG com.springboot.shoppingapp.service.impl.UserServiceImpl [http-nio-8089-exec-8] viewCart(1)
+2020-02-10 14:19:52,361 DEBUG com.springboot.shoppingapp.controller.ShoppingController [http-nio-8089-exec-9] findAll()
+2020-02-10 14:19:52,362 DEBUG com.springboot.shoppingapp.service.impl.UserServiceImpl [http-nio-8089-exec-9] getAll()
+2020-02-10 16:26:28,802 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s578ms92µs700ns).
+2020-02-10 17:05:34,565 WARN com.zaxxer.hikari.pool.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=18m5s750ms95µs600ns).
